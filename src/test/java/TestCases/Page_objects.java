@@ -22,7 +22,7 @@ public class Page_objects {
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Selenium_Batch\\ERP_pro\\src\\test\\java\\drivers\\chromedriver.exe");
 		Driver=new ChromeDriver();
 		Driver.get(url);
-		
+		logger.info("in before annotation");
 		logger=Logger.getLogger("ERP_pro");
 		PropertyConfigurator.configure("log4j.propertise.txt");
 		logger.info("url launched");
